@@ -8,6 +8,7 @@
         <img id="tarima" src="t.jpg">
         <img id="paredconventana" src="paredconventana.jpg">
         <a-asset-item id="mi-modelo" src="scene.gltf"></a-asset-item>
+        <a-asset-item id="mi-led" src="sceneled.gltf"></a-asset-item>
       </a-assets>
       <a-box position="-2 1 1.127" rotation="0 90 0" color="#4cc3d9" width="0.2" depth="2" height="2"></a-box>
       <a-box position=" -3 1 2" rotation="0 0 0" depth="2" height="2" width="0.2 "src="#paredconventana"></a-box>
@@ -17,7 +18,10 @@
          <a-box position="5 0 0" animation="property: rotation; to: 5 360 0; loop: true; dur: 300"color="mediumseagreen"></a-box>
          <a-entity gltf-model="#mi-modelo" position="0 2 -2" scale="0.25 0.25 0.25" rotation="60 0 0">
         </a-entity>
+      <a-entity gltf-model="#mi-led" position="0 2 -2" scale="100 100 100" rotation="0 0 0">
         </a-entity>
+    
+      </a-entity>
       <a-box position="3 0 0" animation="property: rotation; to: 3 360 0; loop true; dur: 500"color="red"></a-box>
       <a-box position="-1 1.6 -5" animation="property: position; to: 1 5 -5; dur: 2000; easing: linear; loop: true; dir: alternate;" color="tomato"
       animation__2="property: rotation; to 0 360 0; loop true; dur: 500"></a-box>
