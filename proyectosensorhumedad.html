@@ -12,13 +12,16 @@
         <!-- Assets -->
         <a-assets>
             <a-asset-item id="mi-modelo" src="scene.gltf"></a-asset-item>
-            <a-asset-item id="miled" src="sceneled.gltf"></a-asset-item>
         </a-assets>
 
-          <!-- Modelo GLTF -->
+
+        <a-assets>
+            <a-asset-item id="mi-led" src="sceneled.gltf"></a-asset-item>
+        </a-assets>
+         <!-- Modelo GLTF -->
         <a-entity gltf-model="#mi-modelo" position="0 2 -2" scale="0.25 0.25 0.25" rotation="60 0 0">
         </a-entity>
-        <a-entity gltf-model="#miled" position="0 2 -2" scale="1 1 1" rotation="0 0 0">
+        <a-entity gltf-model="#mi-led" position="-2 4 -2" scale="0.5 0.5 0.5" rotation="0 0 0">
         </a-entity>
 
 
