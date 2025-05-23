@@ -1,0 +1,361 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7024,
+      "max": [
+        1.7736029624938965,
+        0.5577169060707092,
+        1.3039849996566772
+      ],
+      "min": [
+        -1.879263997077942,
+        -0.5312371253967285,
+        -12.767620086669922
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 84288,
+      "componentType": 5126,
+      "count": 7024,
+      "max": [
+        0.9997854232788086,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9987159967422485,
+        -1.0,
+        -0.9996476769447327
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7024,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 40230,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 168576,
+      "componentType": 5126,
+      "count": 1081,
+      "max": [
+        1.592960000038147,
+        0.15603409707546234,
+        1.634050965309143
+      ],
+      "min": [
+        -0.15925480425357819,
+        -0.1295538991689682,
+        1.1776219606399536
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 181548,
+      "componentType": 5126,
+      "count": 1081,
+      "max": [
+        0.8896071910858154,
+        0.9999985098838806,
+        0.9997550249099731
+      ],
+      "min": [
+        -0.8762388825416565,
+        -0.9999985098838806,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 56192,
+      "componentType": 5126,
+      "count": 1081,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 160920,
+      "componentType": 5125,
+      "count": 5280,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 194520,
+      "componentType": 5126,
+      "count": 9824,
+      "max": [
+        2.9014079570770264,
+        2.933320999145508,
+        6.820874214172363
+      ],
+      "min": [
+        -2.540560007095337,
+        -2.9428939819335938,
+        -1.719486951828003
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 312408,
+      "componentType": 5126,
+      "count": 9824,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 64840,
+      "componentType": 5126,
+      "count": 9824,
+      "max": [
+        0.5518227815628052,
+        0.6880351901054382
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 182040,
+      "componentType": 5125,
+      "count": 56592,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Robótica Paraná (https://sketchfab.com/roboticaparana)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/led-verde-54a65095d68c40ef84eb4bc02ba7af00",
+      "title": "LED Verde"
+    },
+    "generator": "Sketchfab-16.16.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 408408,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143432,
+      "byteOffset": 408408,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 430296,
+      "byteOffset": 551840,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 982136,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "aluminio.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.882917,
+          0.882917,
+          0.882917,
+          1.0
+        ],
+        "metallicFactor": 0.9737172532335336,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "cobre.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8003929999999998,
+          0.753863,
+          0.023529200000000017,
+          1.0
+        ],
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "vidro.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.03386396433145326,
+          0.5684522089150544,
+          0.014832137269047245,
+          0.8
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "aluminio_001-material",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "cobre_001-material",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "vidro_001-material",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "name": "led"
+    },
+    {
+      "mesh": 0,
+      "name": "aluminio_001-material"
+    },
+    {
+      "mesh": 1,
+      "name": "cobre_001-material"
+    },
+    {
+      "mesh": 2,
+      "name": "vidro_001-material"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
