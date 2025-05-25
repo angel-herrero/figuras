@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sensor de Humedad en VR</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #ECECEC">
+      <!-- Cámara y controles VR -->
+      <a-entity position="0 1.6 4">
+        <a-camera wasd-controls-enabled="true"></a-camera>
+      </a-entity>
+
+      <!-- Luz -->
+      <a-entity light="type: ambient; intensity: 0.5"></a-entity>
+      <a-entity light="type: directional; intensity: 1" position="0 2 1"></a-entity>
+
+      <!-- Protoboard (simulada con caja grande) -->
+      <a-box position="0 0.1 0" depth="0.3" height="0.02" width="0.9" color="#ccc"></a-box>
+
+      <!-- LED verde -->
+      <a-cylinder position="0 0.13 0.1" radius="0.01" height="0.03" color="green"></a-cylinder>
+
+      <!-- Resistencia 1k -->
+      <a-box position="-0.2 0.13 -0.05" depth="0.01" height="0.02" width="0.05" color="brown"></a-box>
+
+      <!-- Resistencia 100k -->
+      <a-box position="0.2 0.13 -0.05" depth="0.01" height="0.02" width="0.05" color="orange"></a-box>
+
+      <!-- Transistor (simulado con tres cilindros) -->
+      <a-cylinder position="0 0.13 -0.1" radius="0.015" height="0.03" color="black"></a-cylinder>
+
+      <!-- Cables (simulados con cilindros delgados) -->
+      <a-cylinder position="-0.1 0.13 0" rotation="0 0 90" radius="0.003" height="0.2" color="blue"></a-cylinder>
+      <a-cylinder position="0.1 0.13 0" rotation="0 0 90" radius="0.003" height="0.2" color="red"></a-cylinder>
+
+      <!-- Suelo -->
+      <a-plane rotation="-90 0 0" width="10" height="10" color="#888"></a-plane>
+    </a-scene>
+  </body>
+</html>
